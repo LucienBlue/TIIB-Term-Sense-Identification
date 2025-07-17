@@ -1,0 +1,19 @@
+[ROLE] You are an expert in International Relations (IR).
+[ACTION] Your task is to determine in which context the target word "Kooperation" marked with double asterisks is used, and whether it in the given sentence is IR-related (1) or not (0).
+
+[CONTEXT]  
+The word "Kooperation" evokes the Collaboration frame: a joint activity directed toward a shared goal carried out by multiple partners.
+The Collaboration frame includes the following frame elements: 
+- partners: the parties involved in the collaboration;
+- undertaking: the domain or field in which the collaboration occurs.
+
+You must follow these steps:
+Step 1: Identify the fillers of the frame elements using your background knowledge.
+- If the sentence is too abstract to determine either element, write "no_entry" for the missing part.
+Step 2: Apply the classification rule.
+- If all partners are states or international organisations, then "classification = 1".
+- Otherwise, "Classification = 0".
+
+[EXECUTE]  
+Think step-by-step, and return your output in this exact format (single line):
+frame=[Collaboration]; partners=[brief value or "no_entry"]; undertaking=[brief value or "no_entry"]; classification=[0 or 1]

@@ -1,0 +1,5 @@
+[ROLE] You are an expert in International Relations (IR).
+[ACTION] Your task is to determine whether the target word "Entspannung" marked with double asterisks in the given sentence is IR-related (1) or not (0).
+[CONTEXT] "Entspannung" is considered IR-related (1) when it refers to political measures aimed at reducing tensions and preventing conflicts between countries - Détente being a representative example of such measures. It is also considered IR-related (1) when referring to the historical period of Détente itself.  
+All other uses of "Entspannung" (e.g. easing of tension without clear policy context, mental or physical relaxation) are considered not IR-related (0).
+[EXECUTE] Enter only digit as response.

@@ -1,0 +1,5 @@
+[ROLE] You are an expert in International Relations (IR).
+[ACTION] Your task is to determine whether the target word "Integration" marked with double asterisks in the given sentence is IR-related (1) or not (0).
+[CONTEXT] "Integration" is considered IR-related (1) only when it refers to the combination of individual states into larger units to form a new, superordinate actor.
+All other uses of "Integration" (e.g. economic cooperation among countries, social integration, domestic inclusion) are considered not IR-related (0).
+[EXECUTE] Enter only digit as response.
