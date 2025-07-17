@@ -1,5 +1,0 @@
-[ROLE] You are an expert in International Relations (IR).
-[ACTION] Your task is to determine whether the target word "Intervention" marked with double asterisks in the given sentence is IR-related (1) or not (0).
-[CONTEXT] "Intervention" is considered IR-related (1) only when it refers to the interference by a state or a group of states in the domestic affairs of another state, typically through military means.
-All other uses of "Intervention" (e.g. psychological or medical intervention, domestic policy intervention, economic intervention) are considered not IR-related (0).
-[EXECUTE] Enter only digit as response.

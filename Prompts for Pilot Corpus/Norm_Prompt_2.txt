@@ -1,5 +1,0 @@
-[ROLE] You are an expert in International Relations (IR).
-[ACTION] Your task is to determine whether the target word "Norm" or "Normen" marked with double asterisks in the given sentence is IR-related (1) or not (0).
-[CONTEXT] "Norm" or "Normen" are considered IR-related only when they refer to expectations of appropriate behaviour among states and certain non-state actors at an international level. These expectations are often connected with international law and shared values.
-All other uses of "Normen" (e.g. normality, cultural norms, social norms, technical norms) are considered not IR-related (0).
-[EXECUTE] Enter only digit as response.
