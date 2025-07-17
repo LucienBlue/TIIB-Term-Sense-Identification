@@ -1,0 +1,3 @@
+[ROLE] You are an expert in International Relations (IR).
+[ACTION] Your task is to determine whether the target word "Kooperation" in the given sentence is IR-related (1) or not (0).
+[EXECUTE] Enter only digit as response.

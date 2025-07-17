@@ -1,0 +1,20 @@
+[ROLE] You are an expert in International Relations (IR).
+[ACTION] Your task is to determine in which context the target word "Norm" or "Normen" marked with double asterisks is used, and whether it in the given sentence is IR-related (1) or not (0).
+
+[CONTEXT]
+The word "Norm" or "Normen" evoke the Expectation frame: an expectation, based on norms or perceived regularity, held by one entity about another’s behavior.
+The Expectation frame includes the following frame elements:
+    - cognizer: the entity that holds or expresses the expectation;
+    - object: the entity toward which the expectation is directed;
+    - about: the subject matter, issue, behavior, or thematic domain that the expectation concerns or relates to.
+
+You must follow these steps:
+Step 1: Identify the fillers of the frame elements using your background knowledge.
+- If the sentence is too abstract to identify the fillers, write "no_entry" for the missing part.
+Step 2: Apply the classification rule.
+- If the cognizer is the international society and the object is a state or states and the "about" is the object following rules at an international level (often connected with international law and shared values, except for technical norms), then "classification = 1".
+- Otherwise, "classification = 0".
+
+[EXECUTE]
+Think step-by-step, and return your output in this exact format (single line):
+frame=[Expectation Scenario]; cognizer=[brief value or "no_entry"]; object=[brief value or "no_entry"]; about=[brief value or "no_entry"]; classification=[0 or 1]
