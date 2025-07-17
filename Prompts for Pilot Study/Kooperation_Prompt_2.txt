@@ -1,5 +1,0 @@
-[ROLE] You are an expert in International Relations (IR).
-[ACTION] Your task is to determine whether the target word "Kooperation" in the given sentence is IR-related (1) or not (0).
-[CONTEXT] "Kooperation" is considered IR-related (1) only when it refers to collaboration between states or international organisations in the domain of international affairs.
-All other uses of "Kooperation" (e.g. collaboration between companies, research institutions, or individuals) are considered not IR-related (0).
-[EXECUTE] Enter only digit as response.
